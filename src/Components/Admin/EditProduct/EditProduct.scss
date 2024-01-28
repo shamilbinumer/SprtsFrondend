@@ -1,0 +1,124 @@
+.product-edit-main{
+    .header-main{
+        display: flex;
+    }
+    .header-left{
+        width: 80%;
+        padding-top: 20px;
+    }
+    .back-btn{
+        border-radius: 0px 20px 20px 0px;
+        text-decoration: none;
+        background-color: rgb(2, 7, 61);
+        color: white;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding: 7px 30px;
+    }
+    .card {
+        width: 40%;
+        margin: auto;
+        margin-top: 2%;
+        padding: 1.9rem 1.2rem;
+        text-align: center;
+        background: rgb(2, 7, 61);
+       }
+       
+       /*Inputs*/
+       .field {
+        margin-top: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5em;
+        background-color: #ffffff;
+        border-radius: 4px;
+        padding: .5em 1em;
+       }
+       
+       .input-icon {
+        height: 1em;
+        width: 1em;
+        fill: rgb(2, 7, 61);
+       }
+       
+       .input-field {
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: #000000;
+       }
+       
+       /*Text*/
+       .title {
+        margin-bottom: 1rem;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: #f5f5f5;
+       }
+       
+       /*Buttons*/
+       .btn {
+        margin: 1rem;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: .8em;
+        text-transform: uppercase;
+        padding: 0.6em 1.2em;
+        background-color: #ffffff;
+        color: #5e6681;
+        box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+        transition: all .3s ease-in-out;
+       }
+       
+       .btn-link {
+        color: #f5f5f5;
+        display: block;
+        font-size: .75em;
+        transition: color .3s ease-out;
+       }
+       
+       /*Hover & focus*/
+       .field input:focus::placeholder {
+        opacity: 0;
+        transition: opacity .3s;
+       }
+       
+       .btn:hover {
+        background-color: #5e6681;
+        color: #ffeba7;
+        box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+       }
+       
+       .btn-link:hover {
+        color: #ffeba7;
+       }
+       .label{
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 3px;
+       }
+       .label label{
+            color: white;
+       }
+
+
+       
+       @media(min-width:300px) and (max-width:575.98px){
+        .card {
+            width: 90%;
+            margin-top: 5% !important;
+           }
+       }
+
+       @media(min-width:576px) and (max-width:991.98px){
+        .card {
+            width: 90%;
+            margin-top: 5% !important;
+           }
+       }
+      
+       
+}

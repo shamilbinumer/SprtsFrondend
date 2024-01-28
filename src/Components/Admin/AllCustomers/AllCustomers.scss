@@ -1,0 +1,48 @@
+.allCustomersMain{
+    .main{
+        margin-top: 10px !important;
+        // background-color: red;
+        width: 80%;
+        // height: 300px;
+        margin: auto;
+        display: flex;
+        gap: 10px;
+    }
+    .main{
+        .dp-div{
+            width: 7%;
+            background-color: rgb(177, 177, 177);
+            height: 80px;
+        }
+        .dp-div{
+            .dp{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                margin: auto;
+                margin-top: 9px;
+                background-color: aliceblue;
+                overflow: hidden;
+            }
+            .dp{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .name-div{
+            width: 93%;
+            background-color: rgb(177, 177, 177);
+            height: 80px;
+            // display: flex;
+        }
+        .name-div{
+            h4{
+                display: flex;
+                // margin-left: 20px;
+                padding: 22px;
+            //    align-items: center;
+            }
+        }
+    }
+}

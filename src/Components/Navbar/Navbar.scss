@@ -1,0 +1,88 @@
+.navbar-main{
+    a {
+        font-size:14px;
+        font-weight:700
+      }
+      .superNav {
+        font-size:13px;
+      }
+      // .navbar-brand{
+      //   background-color: rgb(2, 8, 80);
+      //   color: white;  
+      //   padding: 12px 10px;
+      //   font-weight: 900;
+      //   letter-spacing: 1px;
+      //   border-radius: 8px;
+      // }
+      .form-control {
+        outline:none !important;
+        box-shadow: none !important;
+      }
+      .btn{
+        background-color: rgb(2, 8, 80);
+      }
+      .sss{
+        background-color: rgb(2, 8, 80);
+      }
+      .logout{
+        border: none;
+        background-color: rgb(2, 8, 80);
+        color: white;
+        width: 60px;
+        border-radius: 5px;
+        // height: 30px;
+        margin-left: 10px;
+      }
+      .cartIcon{
+        font-size: 26px;
+        padding: 5px;
+        // margin-right: 9px;
+        background-color: gray;
+        border-radius: 50%;
+        color: white;
+      }
+      .wishlist-icon{
+        font-size: 26px;
+        padding: 5px;
+        // margin-right: 9px;
+        background-color: gray;
+        border-radius: 50%;
+        color: white;
+      }
+      .user-icon{
+        font-size: 26px;
+        padding: 5px;
+        margin-right: 6px;
+        background-color: gray;
+        border-radius: 50%;
+        color: white;
+      }
+      .cart{
+        position: relative;
+        // background-color: red;
+      }
+      .cart-count{
+        position: absolute;
+        top: 1%;
+        left: 60%;
+        font-size: 10px;
+        background-color: yellow;
+        padding: 1px 7px;
+        border-radius: 50%;
+      }
+    //   .form-control{
+    //     border: 1px solid rgb(2, 8, 80);
+    //   }
+
+
+
+
+
+
+
+      @media screen and (max-width:540px){
+        .centerOnMobile {
+          text-align:center
+        }
+      }
+}
